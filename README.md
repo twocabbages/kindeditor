@@ -20,7 +20,7 @@ bower install kindeditor --save
 		</style>
 		<link rel="stylesheet" href="bower_components/kindeditor/themes/default/default.css" />
 		<script charset="utf-8" src="bower_components/kindeditor/kindeditor-min.js"></script>
-		<script charset="utf-8" src="bower_components/kindeditor/lang/zh_CN.js"></script>
+		<script charset="utf-8" src="bower_components/kindeditor/lang/zh-CN.js"></script>
 		<script>
 			var editor;
 			KindEditor.ready(function(K) {
