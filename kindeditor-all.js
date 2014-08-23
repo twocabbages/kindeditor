@@ -237,7 +237,7 @@ K.options = {
 	langPath : K.basePath + 'lang/',
 	pluginsPath : K.basePath + 'plugins/',
 	themeType : 'default',
-	langType : 'zh_CN',
+	langType : 'zh-CN',
 	urlType : '',
 	newlineTag : 'p',
 	resizeType : 2,
@@ -6193,7 +6193,7 @@ KindEditor.lang({
 		'2.html' : '表格',
 		'3.html' : '项目编号'
 	}
-}, 'zh_CN');
+}, 'zh-CN');
 /*******************************************************************************
 * KindEditor - WYSIWYG HTML Editor for Internet
 * Copyright (C) 2006-2011 kindsoft.net
@@ -8080,8 +8080,8 @@ KindEditor.plugin('multiimage', function(K) {
 
 		var swfupload = K.swfupload({
 			container : K('.swfupload', div),
-			buttonImageUrl : imgPath + (self.langType == 'zh_CN' ? 'select-files-zh_CN.png' : 'select-files-en.png'),
-			buttonWidth : self.langType == 'zh_CN' ? 72 : 88,
+			buttonImageUrl : imgPath + (self.langType == 'zh-CN' ? 'select-files-zh-CN.png' : 'select-files-en.png'),
+			buttonWidth : self.langType == 'zh-CN' ? 72 : 88,
 			buttonHeight : 23,
 			fileIconUrl : imgPath + 'image.png',
 			uploadDesc : uploadDesc,
